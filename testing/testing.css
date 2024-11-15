@@ -1,0 +1,41 @@
+
+body{
+    background-color: var();
+}
+
+h1{
+    font-family: var();
+    font-size: var();
+    color: var();
+}
+
+h2{
+    font-family: var();
+    font-size: var();
+    color: var();
+}
+
+h3{
+    font-family: var();
+    font-size: var();
+    color: var();
+}
+
+p{
+    font-family: var();
+    font-size: var();
+    color: var();
+}
+
+summary{
+    font-family: var();
+    font-size: var();
+    color: var();
+}
+
+button{
+    background-color: var();
+    border-radius: var();
+}
+
+

@@ -1,30 +1,30 @@
 
 body{
-    background-color: var();
+    background-color: var(--testing-color);
 }
 
 h1{
-    font-family: var();
-    font-size: var();
-    color: var();
+    font-family: var(--font-poppins);
+    font-size: var(--heading1);
+    color: var(--general-color);
 }
 
 h2{
-    font-family: var();
-    font-size: var();
-    color: var();
+    font-family: var(--font-poppins);
+    font-size: var(--heading2);
+    color: var(--general-color);
 }
 
 h3{
-    font-family: var();
-    font-size: var();
-    color: var();
+    font-family: var(--font-poppins);
+    font-size: var(--heading3);
+    color: var(--general-color);
 }
 
 p{
-    font-family: var();
-    font-size: var();
-    color: var();
+    font-family: var(--font-poppins);
+    font-size: var(--body-text-paragraph);
+    color: var(--general-color);
 }
 
 summary{
@@ -34,12 +34,25 @@ summary{
 }
 
 button{
-    background-color: var();
-    border-radius: var();
+    background-color: var(--background-color-button);
+    border-radius: var(--border-radius-button);
+    color: var(--button-text-color);
+    font-family: var(--font-poppins);
+    font-size: var(--font-size-button);
+    border: var(--border-button);
 }
+
+
 
 img{
     width: 70px;
     height: 30px;
 }
+
+.do-test-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
 

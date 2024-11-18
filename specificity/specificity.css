@@ -33,7 +33,11 @@ main {
     font-size: var(--body-text-paragraph);
     padding: .2em;
     font-weight: normal;
+}
 
+/*tekst in wolkje*/
+span {
+    display: block;
 }
 
 /*tekstballon*/
@@ -66,3 +70,34 @@ main {
             90% 90%,
             40% 0%)
 }
+
+/*button let's do it in de tekstballon*/
+.lessons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--general-color);
+    color: var(--button-text-color);
+    font-family: var(--font-poppins);
+    font-size: 14px;
+    text-decoration: none;
+    padding: var(--padding-button);
+    border-radius: var(--border-radius-button);
+    border: var(--border-button);
+}
+
+.lessons:hover{
+    text-decoration: underline;
+}
+
+/*muis en wolkje samen*/
+.info {
+    width: 330px;
+    margin: 0 auto;
+    grid-row: 2;
+    align-self: end;
+}
+
+
+

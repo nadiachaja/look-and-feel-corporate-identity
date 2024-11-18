@@ -55,6 +55,30 @@ button.addEventListener("click", function() {
 
 
 
+
+// let div = document.querySelector('#vraagToggle');
+// let hulp = document.querySelector('article');
+
+// button.addEventListener("click", function() {
+//     hulp.classList.toggle('show-hulp');
+    
+// });
+
+// Haal de benodigde elementen op
+let vraagToggle = document.querySelector('#vraagToggle');  // de div die de SVG bevat
+let hulp = document.querySelector('article');  // het artikel dat we willen tonen of verbergen
+
+// Voeg een click event listener toe aan de vraagToggle
+vraagToggle.addEventListener("click", function() {
+    hulp.classList.toggle('show-hulp');  // toggle de 'show-hulp' klasse op het article
+});
+
+
+
+
+
+
+
 //andere svg als het menu open is en als het menu dicht is 
 const menuIcon = document.getElementById('menuIcon');
 

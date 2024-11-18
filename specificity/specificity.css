@@ -55,11 +55,6 @@ ul {
 
 
 
-
-
-
-
-
 /*EINDE MENU*/
 
 /*START HOME*/
@@ -83,7 +78,6 @@ main {
     flex-direction: column;
     justify-content: center;
 }
-
 
 .h1-tekstballon {
     font-family: var(--font-poppins);
@@ -215,3 +209,26 @@ button {
 
 /*EINDE HOME*/
 
+
+/*BEGIN VRAAGTEKEN*/
+
+.vraagteken{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin-right: 2em;
+    margin-bottom: 4em; 
+}
+
+
+
+article {
+    display: none;
+}
+
+.show-hulp {
+    display: block;
+}
+
+
+/*EINDE VRAAGTEKEN*/

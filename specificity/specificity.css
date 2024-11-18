@@ -3,7 +3,64 @@ body {
     margin: 0;
 }
 
+/*START MENU*/
 
+/*de achtergrond*/
+header {
+    background-color: rgb(36, 36, 36, 0.9);
+    position: fixed;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+
+    clip-path: circle(0rem at calc(100% - 2rem) calc(100% - 3rem)); /*hoe groot de cirkel*/
+    transition: clip-path 0.5s ease-in-out; /*hoe snel het menu opent*/
+}
+
+/*hoe het menu tevoorschijn komt*/
+.show-menu {
+    clip-path: circle(80%); /*maakt de cirkel als het menu opent*/
+}
+
+
+.menu li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: var(--border-radius-button);
+    width: 100%;
+}
+
+/*tekst in het menu*/
+.kopje {
+    font-family: var(--font-poppins);
+    font-size: 16px;
+    color: var(--button-text-color);
+    font-weight: normal;
+    margin-top: .4em;
+}
+
+
+ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    align-items: center;
+    height: 100vh;
+    padding: 0 4rem;
+    gap: 3.5em;
+}
+
+
+
+
+
+
+
+
+/*EINDE MENU*/
 
 /*START HOME*/
 
@@ -99,5 +156,62 @@ span {
     align-self: end;
 }
 
+/*wolkje na 12 uur 's nachts*/
+.moved-down .greeting,
+.moved-down .sub-text {
+    transform: translateY(-.8em); /*hoe het staat*/
+    transition: transform 0.5s ease; /* hoe lang het duurt*/
+}
 
+
+.moved-down .lessons {
+    display: none;
+}
+
+
+.moved-down .goodnight-message {
+    display: block;
+}
+
+
+/*extra tekst die na 12 uur 's nachts komt*/
+.goodnight-message {
+    display: none;
+    margin-top: -1.5em;
+    font-family: var(--font-poppins);
+    font-weight: normal;
+    font-size: var(--body-text-paragraph);
+}
+
+/*tekst tomorrow na 12 uur 's nachts*/
+.purple {
+    color: var(--lessons-color);
+    font-size: var(--body-text-paragraph);
+}
+
+button {
+    background-color: var( --general-color);
+    border-radius: var(--border-radius-button);
+    width: 5em;
+    height: 5em;
+    border: var(--border-button);
+    position: fixed;
+    right: 2em;
+    bottom: 2em;
+    z-index: 101; /*dat het elemnt nu boven andere elementen staat*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    fill: var(--button-text-color);
+
+}
+
+/*svg (kruisje) als het menu open is*/
+#menuIcon {
+    width: 45px;
+    height: 45px;
+    fill: var(--button-text-color);
+}
+
+/*EINDE HOME*/
 

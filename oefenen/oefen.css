@@ -3,7 +3,8 @@ body {
     margin: 0;
 }
 
-/*START MENU*/
+/* START MENU */
+
 
 /*de achtergrond*/
 header {
@@ -24,7 +25,7 @@ header {
     clip-path: circle(80%); /*maakt de cirkel als het menu opent*/
 }
 
-/*vierkanten in het menu bij elk kopje*/
+
 .menu li {
     display: flex;
     flex-direction: column;
@@ -42,7 +43,7 @@ header {
     margin-top: .4em;
 }
 
-/*de layout in het menu*/
+
 ul {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -51,75 +52,223 @@ ul {
     height: 100vh;
     padding: 0 4rem;
     gap: 3.5em;
+
+
+}
+
+.menu li>a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
 }
 
 
-.huis{  /*vierkant om het huisje*/
+.svg-home {
+    margin-top: .3em;
+}
+
+.svg-testing {
+    margin-top: .3em;
+}
+
+.svg-lessons-nav {
+    margin-top: .3em;
+}
+
+.svg- {
+    margin-top: .3em;
+}
+
+.svg-statistics {
+    margin-top: .3em;
+}
+
+.svg-profile {
+    margin-top: .3em;
+}
+
+
+/*de achtergrond van de kopjes*/
+.menu .home {
     background-color: var(--home-color);
     width: 5em;
     height: 5em;
-    border-radius: var(--border-radius-button);
+    justify-content: center;
+    justify-self: end;
+    align-self: end;
+
 }
 
-.testen{  /*vierkant om de puzzel*/
+.menu .testing {
     background-color: var(--testing-color);
     width: 5em;
     height: 5em;
-    border-radius: var(--border-radius-button);
+    justify-content: center;
+    justify-self: start;
+    align-self: end;
 }
 
-.les{  /*vierkant om het boek*/
-    background-color: var(--lessons-color);
-    width: 5em;
-    height: 5em;
-    border-radius: var(--border-radius-button);
-}
-
-.doelen{   /*vierkant om het tabel*/
+.menu .statistics {
     background-color: var(--statistics-color);
     width: 5em;
     height: 5em;
-    border-radius: var(--border-radius-button);
+    justify-content: center;
+    justify-self: start;
+
 }
 
-.gebruiker{   /*vierkant om de persoon*/
+.menu .profile {
     background-color: var(--profile-color);
     width: 5em;
     height: 5em;
-    border-radius: var(--border-radius-button);
+    justify-content: center;
+    justify-self: end;
+    align-self: start;
+}
+
+.menu .lessons-nav {
+    background-color: var(--lessons-color);
+    width: 5em;
+    height: 5em;
+    justify-content: center;
+    justify-self: end;
 }
 
 
-.svg-home{  /*huisje*/
-    margin-left: 1.15em;
-    margin-top: 1.05em; 
+/*hovers over li*/
+.home:hover {
+    background: var(--background-gradient-all-buttons);
 }
 
-.svg-testing{  /*puzzel*/
-    margin-left: 1.15em;
-    margin-top: 1.05em; 
+.testing:hover {
+    background: var(--background-gradient-all-buttons);
 }
 
-.svg-lessons{  /*boek*/
-    margin-left: 1.15em;
-    margin-top: 1.05em; 
+.statistics:hover {
+    background: var(--background-gradient-all-buttons);
 }
 
-.svg-statistics{  /*tabel*/
-    margin-left: 1.3em;
-    margin-top: 1.45em; 
+.lessons-nav:hover {
+    background: var(--background-gradient-all-buttons);
 }
 
-.svg-profile{  /*persoon*/
-    margin-left: 1.15em;
-    margin-top: 1.05em; 
+.profile:hover {
+    background: var(--background-gradient-all-buttons);
 }
 
 
 
 
+/*dat dit van toepassing is als het scherm 700px en groter is*/
+@media screen and (min-width: 700px) {
 
-/*EINDE MENU*/
+    .menu .home {
+        width: 5.5em;
+        height: 5.5em;
+    }
+
+    .menu .testing {
+        width: 5.5em;
+        height: 5.5em;
+    }
+
+    .menu .statistics {
+        width: 5.5em;
+        height: 5.5em;
+    }
+
+    .menu .lessons-nav {
+        width: 5.5em;
+        height: 5.5em;
+    }
+
+    .menu .profile {
+        width: 5.5em;
+        height: 5.5em;
+    }
+
+    .kopje {
+        font-size: 17px;
+    }
+
+    .menu li {
+        border-radius: 15px;
+    }
+
+}
+
+
+/*dat dit van toepassing is als het scherm 800px en tot en met 999px is*/
+@media screen and (min-width: 800px) and (max-width: 999px) {
+
+    .menu .home {
+        width: 6em;
+        height: 6em;
+    }
+
+    .menu .testing {
+        width: 6em;
+        height: 6em;
+    }
+
+    .menu .statistics {
+        width: 6em;
+        height: 6em;
+    }
+
+    .menu .lessons-nav {
+        width: 6em;
+        height: 6em;
+    }
+
+    .menu .profile {
+        width: 6em;
+        height: 6em;
+    }
+
+    .kopje {
+        font-size: 18px;
+    }
+}
+
+
+/*dat dit van toepassing is als het scherm 1000px en groter is*/
+@media screen and (min-width: 1000px) {
+
+    .menu .home {
+        width: 6.5em;
+        height: 6.5em;
+    }
+
+    .menu .testing {
+        width: 6.5em;
+        height: 6.5em;
+    }
+
+    .menu .statistics {
+        width: 6.5em;
+        height: 6.5em;
+    }
+
+    .menu .lessons-nav {
+        width: 6.5em;
+        height: 6.5em;
+    }
+
+    .menu .profile {
+        width: 6.5em;
+        height: 6.5em;
+    }
+
+    .kopje {
+        font-size: 19px;
+    }
+
+}
+
+
+/* EINDE MENU */
 
 
 /*BEGIN VRAAGTEKEN*/
@@ -145,17 +294,17 @@ article {
 /*EINDE VRAAGTEKEN*/
 
 
-/*START HOME*/
 
+/* START HOME */
 
 /*achtergrond*/
 main {
-    background-color: var(#a4cef8);
+    background-color:var(--home-color);
     background-image: url(/svg/house-mouse.svg);
     height: 100vh;
     background-size: cover; /*dat de achtergrond meebeweegt met de grote van het scherm*/
-    background-repeat: no-repeat;/*dat de achtergrond meebeweegt met de grote van het scherm*/
-    background-position: center;/*dat de achtergrond meebeweegt met de grote van het scherm*/
+    background-repeat: no-repeat; /*dat de achtergrond meebeweegt met de grote van het scherm*/
+    background-position: center; /*dat de achtergrond meebeweegt met de grote van het scherm*/
     line-height: 1.5;
     gap: 2em;
     padding: 0;
@@ -164,17 +313,7 @@ main {
     justify-content: center;
 }
 
-.h1-tekstballon {
-    font-family: var(--font-poppins);
-    font-size: var(--body-text-paragraph);
-    padding: .2em;
-    font-weight: normal;
-}
 
-/*tekst in wolkje*/
-span {
-    display: block;
-}
 
 /*tekstballon*/
 .wolkje {
@@ -188,13 +327,12 @@ span {
     margin-left: 1em;
 }
 
+
 /*uitsteksel bij het wolkje om het een tekstwolkje word*/
 .wolkje::after {
-    content: "";
-    /*dit moet altijd er staan anders werkt het niet*/
+    content: ""; /*dit moet altijd er staan anders werkt het niet*/
     position: absolute;
-    top: calc(100% - .5px);
-    /*hoe groot het is*/
+    top: calc(100% - .5px); /*hoe groot het is*/
     left: 2em;
     width: 8em;
     height: 3em;
@@ -207,26 +345,40 @@ span {
             40% 0%)
 }
 
+
 /*button let's do it in de tekstballon*/
 .lessons {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: var(--general-color);
+    background-color:var(--general-color);
     color: var(--button-text-color);
     font-family: var(--font-poppins);
     font-size: var(--button-text);
-    text-decoration: none;
     padding: var(--padding-button);
     border-radius: var(--border-radius-button);
-    border: var(--border-button);
 }
 
-.lessons:hover{
-    text-decoration: underline;
-    background: var(--background-gradient-all-buttons);
+
+.lessons:hover {
+    background-color: var(--background-gradient-all-buttons);
 }
+
+
+.h1-tekstballon {
+    font-family: var(--font-poppins);
+    font-size: var(--body-text-paragraph);
+    padding: .2em;
+    font-weight: normal;
+}
+
+
+/*tekst in wolkje*/
+span {
+    display: block;
+}
+
 
 /*muis en wolkje samen*/
 .info {
@@ -265,12 +417,13 @@ span {
 
 /*tekst tomorrow na 12 uur 's nachts*/
 .purple {
-    color: var(--lessons-color);
+    color:var(--lessons-color);
     font-size: var(--body-text-paragraph);
 }
 
+
 button {
-    background-color: var( --general-color);
+    background-color: var(--general-color);
     border-radius: var(--border-radius-button);
     width: 5em;
     height: 5em;
@@ -282,8 +435,6 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
-    fill: var(--button-text-color);
-
 }
 
 button:hover{
@@ -294,13 +445,8 @@ button:hover{
 #menuIcon {
     width: 45px;
     height: 45px;
-    fill: var(--button-text-color);
+    fill: #ffffff;
 }
 
-/*EINDE HOME*/
 
-
-
-
-
-
+/* EINDE HOME */

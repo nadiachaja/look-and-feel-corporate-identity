@@ -56,13 +56,8 @@ button.addEventListener("click", function() {
 
 
 
-// let div = document.querySelector('#vraagToggle');
-// let hulp = document.querySelector('article');
 
-// button.addEventListener("click", function() {
-//     hulp.classList.toggle('show-hulp');
-    
-// });
+
 
 // Haal de benodigde elementen op
 let vraagToggle = document.querySelector('#vraagToggle');  // de div die de SVG bevat

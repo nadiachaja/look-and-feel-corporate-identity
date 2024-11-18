@@ -24,7 +24,7 @@ header {
     clip-path: circle(80%); /*maakt de cirkel als het menu opent*/
 }
 
-
+/*vierkanten in het menu bij elk kopje*/
 .menu li {
     display: flex;
     flex-direction: column;
@@ -42,7 +42,7 @@ header {
     margin-top: .4em;
 }
 
-
+/*de layout in het menu*/
 ul {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -54,8 +54,96 @@ ul {
 }
 
 
+.huis{  /*vierkant om het huisje*/
+    background-color: var(--home-color);
+    width: 5em;
+    height: 5em;
+    border-radius: var(--border-radius-button);
+}
+
+.testen{  /*vierkant om de puzzel*/
+    background-color: var(--testing-color);
+    width: 5em;
+    height: 5em;
+    border-radius: var(--border-radius-button);
+}
+
+.les{  /*vierkant om het boek*/
+    background-color: var(--lessons-color);
+    width: 5em;
+    height: 5em;
+    border-radius: var(--border-radius-button);
+}
+
+.doelen{   /*vierkant om het tabel*/
+    background-color: var(--statistics-color);
+    width: 5em;
+    height: 5em;
+    border-radius: var(--border-radius-button);
+}
+
+.gebruiker{   /*vierkant om de persoon*/
+    background-color: var(--profile-color);
+    width: 5em;
+    height: 5em;
+    border-radius: var(--border-radius-button);
+}
+
+
+.svg-home{  /*huisje*/
+    margin-left: 1.15em;
+    margin-top: 1.05em; 
+}
+
+.svg-testing{  /*puzzel*/
+    margin-left: 1.15em;
+    margin-top: 1.05em; 
+}
+
+.svg-lessons{  /*boek*/
+    margin-left: 1.15em;
+    margin-top: 1.05em; 
+}
+
+.svg-statistics{  /*tabel*/
+    margin-left: 1.3em;
+    margin-top: 1.45em; 
+}
+
+.svg-profile{  /*persoon*/
+    margin-left: 1.15em;
+    margin-top: 1.05em; 
+}
+
+
+
+
 
 /*EINDE MENU*/
+
+
+/*BEGIN VRAAGTEKEN*/
+
+.vraagteken{  /*waar het vraagteken moet staan*/
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin-right: 2em;
+    margin-bottom: 4em; 
+}
+
+
+article {
+    display: none;
+}
+
+.show-hulp {
+    display: block;
+}
+
+
+/*EINDE VRAAGTEKEN*/
+
 
 /*START HOME*/
 
@@ -65,12 +153,9 @@ main {
     background-color: var(#a4cef8);
     background-image: url(/svg/house-mouse.svg);
     height: 100vh;
-    background-size: cover;
-    /*dat de achtergrond meebeweegt met de grote van het scherm*/
-    background-repeat: no-repeat;
-    /*dat de achtergrond meebeweegt met de grote van het scherm*/
-    background-position: center;
-    /*dat de achtergrond meebeweegt met de grote van het scherm*/
+    background-size: cover; /*dat de achtergrond meebeweegt met de grote van het scherm*/
+    background-repeat: no-repeat;/*dat de achtergrond meebeweegt met de grote van het scherm*/
+    background-position: center;/*dat de achtergrond meebeweegt met de grote van het scherm*/
     line-height: 1.5;
     gap: 2em;
     padding: 0;
@@ -140,6 +225,7 @@ span {
 
 .lessons:hover{
     text-decoration: underline;
+    background: var(--background-gradient-all-buttons);
 }
 
 /*muis en wolkje samen*/
@@ -200,6 +286,10 @@ button {
 
 }
 
+button:hover{
+    background: var(--background-gradient-all-buttons);
+}
+
 /*svg (kruisje) als het menu open is*/
 #menuIcon {
     width: 45px;
@@ -210,25 +300,7 @@ button {
 /*EINDE HOME*/
 
 
-/*BEGIN VRAAGTEKEN*/
-
-.vraagteken{
-    display: flex;
-    flex-direction: row;
-    justify-content: end;
-    margin-right: 2em;
-    margin-bottom: 4em; 
-}
 
 
 
-article {
-    display: none;
-}
 
-.show-hulp {
-    display: block;
-}
-
-
-/*EINDE VRAAGTEKEN*/

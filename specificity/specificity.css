@@ -34,13 +34,55 @@ header {
 }
 
 /*tekst in het menu*/
-.kopje {
+/* .kopje {
     font-family: var(--font-poppins);
     font-size: 16px;
     color: var(--button-text-color);
     font-weight: normal;
     margin-top: .4em;
+} */
+
+.kopje-1{
+    font-family: var(--font-poppins);
+    font-size: 16px;
+    color: var(--button-text-color);
+    font-weight: normal;
+    /* margin-top: .4em; */
 }
+
+.kopje-2{
+    font-family: var(--font-poppins);
+    font-size: 16px;
+    color: var(--button-text-color);
+    font-weight: normal;
+    /* margin-top: .4em; */
+}
+
+.kopje-3{
+    font-family: var(--font-poppins);
+    font-size: 16px;
+    color: var(--button-text-color);
+    font-weight: normal;
+    /* margin-top: .4em; */
+}
+
+.kopje-4{
+    font-family: var(--font-poppins);
+    font-size: 16px;
+    color: var(--button-text-color);
+    font-weight: normal;
+    /* margin-top: .4em; */
+}
+
+.kopje-5{
+    font-family: var(--font-poppins);
+    font-size: 16px;
+    color: var(--button-text-color);
+    font-weight: normal;
+    /* margin-top: .4em; */
+}
+
+
 
 /*de layout in het menu*/
 ul {
@@ -59,13 +101,20 @@ ul {
     width: 5em;
     height: 5em;
     border-radius: var(--border-radius-button);
+    justify-content: center;
+    justify-self: end;
+    align-self: end;
 }
+
 
 .testen{  /*vierkant om de puzzel*/
     background-color: var(--testing-color);
     width: 5em;
     height: 5em;
     border-radius: var(--border-radius-button);
+    justify-content: center;
+    justify-self: start;
+    align-self: start;
 }
 
 .les{  /*vierkant om het boek*/
@@ -73,6 +122,8 @@ ul {
     width: 5em;
     height: 5em;
     border-radius: var(--border-radius-button);
+    justify-content: center;
+    justify-self: end;
 }
 
 .doelen{   /*vierkant om het tabel*/
@@ -80,6 +131,8 @@ ul {
     width: 5em;
     height: 5em;
     border-radius: var(--border-radius-button);
+    justify-content: center;
+    justify-self: start;
 }
 
 .gebruiker{   /*vierkant om de persoon*/
@@ -87,6 +140,9 @@ ul {
     width: 5em;
     height: 5em;
     border-radius: var(--border-radius-button);
+    justify-content: center;
+    justify-self: end;
+    align-self: start;
 }
 
 

@@ -362,7 +362,7 @@ main {
 
 
 .lessons:hover {
-    background-color: var(--background-gradient-all-buttons);
+    background: var(--background-gradient-all-buttons);
 }
 
 

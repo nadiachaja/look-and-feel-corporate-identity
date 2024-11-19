@@ -47,7 +47,7 @@ header {
     font-size: 16px;
     color: var(--button-text-color);
     font-weight: normal;
-    /* margin-top: .4em; */
+    
 }
 
 .kopje-2{
@@ -55,7 +55,7 @@ header {
     font-size: 16px;
     color: var(--button-text-color);
     font-weight: normal;
-    /* margin-top: .4em; */
+   margin-right: 1em;
 }
 
 .kopje-3{
@@ -63,7 +63,7 @@ header {
     font-size: 16px;
     color: var(--button-text-color);
     font-weight: normal;
-    /* margin-top: .4em; */
+   
 }
 
 .kopje-4{
@@ -71,7 +71,7 @@ header {
     font-size: 16px;
     color: var(--button-text-color);
     font-weight: normal;
-    /* margin-top: .4em; */
+    
 }
 
 .kopje-5{
@@ -79,7 +79,7 @@ header {
     font-size: 16px;
     color: var(--button-text-color);
     font-weight: normal;
-    /* margin-top: .4em; */
+   
 }
 
 

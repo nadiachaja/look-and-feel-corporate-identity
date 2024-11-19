@@ -70,3 +70,15 @@ button.addEventListener('click', function() {
         menuIcon.setAttribute('viewBox', '0 0 56 56'); // Terug naar originele viewBox
     }
 });
+
+
+
+
+
+let vraagToggle = document.querySelector('#vraagToggle');  
+let hulp = document.querySelector('article'); 
+
+
+vraagToggle.addEventListener("click", function() {
+    hulp.classList.toggle('show-hulp');  
+});

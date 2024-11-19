@@ -46,6 +46,12 @@ header {
 }
 
 
+a:hover {
+    border: none;
+    /*lijn onder de kopjes*/
+}
+
+
 /*de layout in het menu*/
 ul {
     display: grid;

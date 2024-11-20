@@ -275,7 +275,7 @@ h2{
 /*achtergrond*/
 main {
     background-color: var(--home-color);
-    background-image: url(/svg/house-mouse.svg);
+    background-image: url(../svg/house-mouse.svg);
     height: 100vh;
     background-size: cover;
     /*dat de achtergrond meebeweegt met de grote van het scherm*/

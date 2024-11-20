@@ -260,6 +260,7 @@ article {
 section {
     background-color: var(--main-color);
     margin: 2.5em;
+    border-radius: var(--border-radius-button);
 }
 
 .show-hulp {
@@ -411,10 +412,10 @@ span {
 }
 
 /*tekst tomorrow na 12 uur 's nachts*/
-.purple {
+/* .purple {
     color: var(--lessons-color);
     font-size: var(--body-text-paragraph);
-}
+} */
 
 button {
     background-color: var(--general-color);

@@ -218,15 +218,27 @@ ul {
 
 /*BEGIN VRAAGTEKEN*/
 
-.vraagteken {
+button.vraagteken {
     /*waar het vraagteken moet staan*/
     display: flex;
     flex-direction: row;
     justify-content: end;
     margin-right: 2em;
     margin-bottom: 4em;
+    background-color: transparent;
+    padding: 0;
+    right: 1em;
+    top: 0;
 }
 
+button.vraagteken:hover {
+    background: transparent;
+}
+
+.hulp-icon:hover{
+    background: var(--background-gradient-all-buttons);
+    border-radius: 50%;
+}
 
 article {
     display: none;
@@ -237,13 +249,9 @@ article {
 }
 
 .show-hulp {
-    display: block;
-}
-
-
-.hulp-icon:hover{
-    background: var(--background-gradient-all-buttons);
-    border-radius: 50%;
+    display: flex;
+    z-index: 10;
+    position: absolute;
 }
 
 h2{

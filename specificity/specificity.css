@@ -45,10 +45,13 @@ header {
     margin-top: .7em;
 }
 
+.kopje:hover{
+    text-decoration: underline;
+}
+
 
 a:hover {
-    border: none;
-    /*lijn onder de kopjes*/
+    border: none;  /*lijn onder de kopjes*/
 }
 
 
@@ -62,6 +65,8 @@ ul {
     padding: 0 4rem;
     gap: 3.5em;
 }
+
+
 
 
 /*HOME*/
@@ -87,6 +92,9 @@ ul {
     display: block;
 }
 
+.huis:hover{
+    background: var(--background-gradient-all-buttons);
+}
 
 
 
@@ -114,6 +122,10 @@ ul {
     display: block;
 }
 
+.testen:hover{
+    background: var(--background-gradient-all-buttons);
+}
+
 
 
 /*LESSONS*/
@@ -139,6 +151,9 @@ ul {
     display: block;
 }
 
+.les:hover{
+    background: var(--background-gradient-all-buttons);
+}
 
 
 /*STATISTICS*/
@@ -162,6 +177,10 @@ ul {
 .svg-statistics {
     /*tabel*/
     display: block;
+}
+
+.doelen:hover{
+    background: var(--background-gradient-all-buttons);
 }
 
 
@@ -188,6 +207,10 @@ ul {
     display: block;
 }
 
+.gebruiker:hover{
+    background: var(--background-gradient-all-buttons);
+}
+
 
 
 /*EINDE MENU*/
@@ -207,6 +230,10 @@ ul {
 
 article {
     display: none;
+    background-color: var(--main-color);
+    padding: 0;
+    margin: 0;
+    height: 100vh;
 }
 
 .show-hulp {
@@ -218,6 +245,15 @@ article {
     background: var(--background-gradient-all-buttons);
     border-radius: 50%;
 }
+
+h2{
+    display: flex;
+    justify-content: center;
+    padding: 2em;
+    margin: 0;
+}
+
+
 
 
 

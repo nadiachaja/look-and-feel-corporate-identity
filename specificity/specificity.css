@@ -229,7 +229,7 @@ button.vraagteken {
     padding: 0;
     right: 1em;
     top: 0;
-    position: fixed;
+    z-index: 101;
 }
 
 button.vraagteken:hover {
@@ -268,6 +268,7 @@ h2{
 
 
 /*EINDE VRAAGTEKEN*/
+
 
 
 /*START HOME*/

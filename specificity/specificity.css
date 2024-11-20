@@ -229,6 +229,7 @@ button.vraagteken {
     padding: 0;
     right: 1em;
     top: 0;
+    position: fixed;
 }
 
 button.vraagteken:hover {

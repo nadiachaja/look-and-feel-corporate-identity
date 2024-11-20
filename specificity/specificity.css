@@ -342,7 +342,8 @@ span {
 }
 
 .lessons:hover {
-    text-decoration: underline;
+    /* text-decoration: underline; */
+    text-decoration: var(--underline-text-hover);
     background: var(--background-gradient-all-buttons);
 }
 
@@ -419,3 +420,4 @@ button:hover {
 }
 
 /*EINDE HOME*/
+

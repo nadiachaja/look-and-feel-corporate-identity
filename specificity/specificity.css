@@ -254,7 +254,6 @@ article {
 section {
     background-color: var(--main-color);
     margin: 3em;
-    height: 37em;
 
 }
 
@@ -274,7 +273,8 @@ h2 {
 
 p {
     font-family: var(--font-poppins);
-    padding: 2em;
+    padding-left: 2em;
+    padding-right: 2em;
 }
 
 

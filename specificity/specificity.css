@@ -45,13 +45,14 @@ header {
     margin-top: .7em;
 }
 
-.kopje:hover{
+.kopje:hover {
     text-decoration: underline;
 }
 
 
 a:hover {
-    border: none;  /*lijn onder de kopjes*/
+    border: none;
+    /*lijn onder de kopjes*/
 }
 
 
@@ -92,7 +93,7 @@ ul {
     display: block;
 }
 
-.huis:hover{
+.huis:hover {
     background: var(--background-gradient-all-buttons);
 }
 
@@ -122,7 +123,7 @@ ul {
     display: block;
 }
 
-.testen:hover{
+.testen:hover {
     background: var(--background-gradient-all-buttons);
 }
 
@@ -151,7 +152,7 @@ ul {
     display: block;
 }
 
-.les:hover{
+.les:hover {
     background: var(--background-gradient-all-buttons);
 }
 
@@ -179,7 +180,7 @@ ul {
     display: block;
 }
 
-.doelen:hover{
+.doelen:hover {
     background: var(--background-gradient-all-buttons);
 }
 
@@ -207,7 +208,7 @@ ul {
     display: block;
 }
 
-.gebruiker:hover{
+.gebruiker:hover {
     background: var(--background-gradient-all-buttons);
 }
 
@@ -236,17 +237,23 @@ button.vraagteken:hover {
     background: transparent;
 }
 
-.hulp-icon:hover{
+.hulp-icon:hover {
     background: var(--background-gradient-all-buttons);
     border-radius: 50%;
 }
 
 article {
     display: none;
-    background-color: var(--main-color);
+    background-color: var(--background-menu);
     padding: 0;
     margin: 0;
     height: 100vh;
+}
+
+section {
+    background-color: var(--main-color);
+    margin: 3em;
+    height: 37em;
 
 }
 
@@ -256,13 +263,18 @@ article {
     position: absolute;
 }
 
-h2{
+h2 {
     display: flex;
     justify-content: center;
     padding: 2em;
     margin: 0;
+    font-family: var(--font-poppins);
 }
 
+p {
+    font-family: var(--font-poppins);
+    padding: 2em;
+}
 
 
 
@@ -415,7 +427,6 @@ button {
     align-items: center;
     justify-content: center;
     fill: var(--button-text-color);
-
 }
 
 button:hover {
@@ -430,4 +441,3 @@ button:hover {
 }
 
 /*EINDE HOME*/
-

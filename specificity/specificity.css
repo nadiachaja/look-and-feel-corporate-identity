@@ -7,7 +7,7 @@ body {
 
 /*de achtergrond*/
 header {
-    background-color: rgb(36, 36, 36, 0.9);
+    background-color: var(--background-menu);
     position: fixed;
     height: 100vh;
     top: 0;
@@ -43,10 +43,11 @@ header {
     color: var(--button-text-color);
     font-weight: normal;
     margin-top: .7em;
+    padding: 0;
 }
 
 .kopje:hover {
-    text-decoration: underline;
+    text-decoration: var(--underline-text-hover);
 }
 
 
@@ -230,7 +231,7 @@ button.vraagteken {
     padding: 0;
     right: 1em;
     top: 0;
-    z-index: 101;
+    z-index: 10;
 }
 
 button.vraagteken:hover {
@@ -320,7 +321,7 @@ span {
 /*tekstballon*/
 .wolkje {
     position: relative;
-    background-color: rgb(255, 255, 255);
+    background-color: var(--wolkje-color);
     padding: 1.5em;
     height: 7em;
     margin-bottom: 3em;

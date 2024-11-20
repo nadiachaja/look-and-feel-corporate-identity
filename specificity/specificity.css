@@ -65,7 +65,7 @@ ul {
     align-items: center;
     height: 100vh;
     padding: 0 4rem;
-    gap: 3.5em;
+    /* gap: 3.5em; */
 }
 
 
@@ -86,7 +86,8 @@ ul {
 
 .home {
     display: flex;
-    align-items: center;
+    /* align-items: center; */
+    align-self: end;
 }
 
 .svg-home {
@@ -116,7 +117,8 @@ ul {
 
 .testing {
     display: flex;
-    align-items: center;
+    /* align-items: center; */
+    align-self: end;
 }
 
 .svg-testing {
@@ -145,7 +147,8 @@ ul {
 
 .lessons-nav {
     display: flex;
-    align-items: center;
+    /* align-items: center; */
+    align-self: center;
 }
 
 .svg-lessons {
@@ -173,7 +176,8 @@ ul {
 
 .statistics {
     display: flex;
-    align-items: center;
+    /* align-items: center; */
+    align-self: center;
 }
 
 .svg-statistics {
@@ -201,7 +205,8 @@ ul {
 
 .profile {
     display: flex;
-    align-items: center;
+    /* align-items: center; */
+    align-self: start;
 }
 
 .svg-profile {

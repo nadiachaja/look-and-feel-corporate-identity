@@ -445,3 +445,40 @@ button:hover {
 }
 
 /*EINDE HOME*/
+
+
+/*TABLET*/
+
+@media screen and (min-width: 800px){
+
+    .huis {
+    /*vierkant om het huisje*/
+    width: 6em;
+    height: 6em;  
+}
+
+.testen {
+    /*vierkant om de puzzel*/
+    width: 6em;
+    height: 6em;
+}
+
+.les {
+    /*vierkant om het boek*/
+    width: 6em;
+    height: 6em;
+}
+
+.doelen {
+    /*vierkant om het tabel*/
+    width: 6em;
+    height: 6em;
+}
+
+.gebruiker {
+    /*vierkant om de persoon*/
+    width: 6em;
+    height: 6em;
+}
+   
+}

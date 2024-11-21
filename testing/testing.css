@@ -271,6 +271,7 @@ h2{
     font-family: var(--font-poppins);
     font-size: var(--heading2);
     color: var(--general-color);
+    margin-left: .5em;
 }
 
 h3{
@@ -284,6 +285,23 @@ p{
     font-size: var(--body-text-paragraph);
     color: var(--general-color);
 }
+
+.tekst-uitleg{
+    margin-left: .5em;
+}
+
+.tekst-link{
+    color: var(--general-color);
+    text-decoration: var(--underline-text-hover);
+}
+
+.how{
+    font-weight: var();
+}
+
+/* .tekst-link:hover{
+text-decoration: var(--underline-text-hover);
+} */
 
 
 summary{
@@ -309,7 +327,6 @@ img{
 
 
 main{
-    margin: 1em;
    display: grid;
    gap:2em;
 }

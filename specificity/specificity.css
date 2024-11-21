@@ -69,6 +69,14 @@ ul {
 }
 
 
+@keyframes wobble {
+    0% { transform: rotate(0deg); }
+    15% { transform: rotate(5deg); }
+    30% { transform: rotate(-5deg); }
+    45% { transform: rotate(5deg); }
+    60% { transform: rotate(-5deg); }
+    100% { transform: rotate(0deg); }
+}
 
 
 /*HOME*/
@@ -82,6 +90,7 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: transform 0.3s ease;
 }
 
 .home {
@@ -99,6 +108,9 @@ ul {
     background: var(--background-gradient-all-buttons);
 }
 
+.huis.wobble {
+    animation: wobble 1s infinite;
+}
 
 
 
@@ -113,6 +125,7 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: transform 0.3s ease;
 }
 
 .testing {
@@ -130,6 +143,10 @@ ul {
     background: var(--background-gradient-all-buttons);
 }
 
+.testen.wobble {
+    animation: wobble 1s infinite;
+}
+
 
 
 /*LESSONS*/
@@ -143,6 +160,7 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: transform 0.3s ease;
 }
 
 .lessons-nav {
@@ -160,6 +178,10 @@ ul {
     background: var(--background-gradient-all-buttons);
 }
 
+.les.wobble {
+    animation: wobble 1s infinite;
+}
+
 
 /*STATISTICS*/
 
@@ -172,6 +194,7 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: transform 0.3s ease;
 }
 
 .statistics {
@@ -189,6 +212,10 @@ ul {
     background: var(--background-gradient-all-buttons);
 }
 
+.doelen.wobble {
+    animation: wobble 1s infinite;
+}
+
 
 /*PROFILE*/
 
@@ -201,6 +228,7 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: transform 0.3s ease;
 }
 
 .profile {
@@ -218,6 +246,9 @@ ul {
     background: var(--background-gradient-all-buttons);
 }
 
+.gebruiker.wobble {
+    animation: wobble 1s infinite;
+}
 
 
 /*EINDE MENU*/

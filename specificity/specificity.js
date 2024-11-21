@@ -81,3 +81,68 @@ let hulp = document.querySelector('article');
 vraagToggle.addEventListener("click", function() {
     hulp.classList.toggle('show-hulp');  
 });
+
+
+
+
+
+//wobble effecten op de kopje in het menu 
+
+const huis = document.querySelector('.huis');
+
+// Wobble effect on hover
+huis.addEventListener('mouseenter', () => {
+    huis.classList.add('wobble');
+});
+
+huis.addEventListener('mouseleave', () => {
+    huis.classList.remove('wobble');
+});
+
+
+const testen = document.querySelector('.testen');
+
+// Wobble effect on hover
+testen.addEventListener('mouseenter', () => {
+    testen.classList.add('wobble');
+});
+
+testen.addEventListener('mouseleave', () => {
+    testen.classList.remove('wobble');
+});
+
+
+const les = document.querySelector('.les');
+
+// Wobble effect on hover
+les.addEventListener('mouseenter', () => {
+    les.classList.add('wobble');
+});
+
+les.addEventListener('mouseleave', () => {
+    les.classList.remove('wobble');
+});
+
+
+const doelen = document.querySelector('.doelen');
+
+// Wobble effect on hover
+doelen.addEventListener('mouseenter', () => {
+    doelen.classList.add('wobble');
+});
+
+doelen.addEventListener('mouseleave', () => {
+    doelen.classList.remove('wobble');
+});
+
+
+const gebruiker = document.querySelector('.gebruiker');
+
+// Wobble effect on hover
+gebruiker.addEventListener('mouseenter', () => {
+    gebruiker.classList.add('wobble');
+});
+
+gebruiker.addEventListener('mouseleave', () => {
+    gebruiker.classList.remove('wobble');
+});

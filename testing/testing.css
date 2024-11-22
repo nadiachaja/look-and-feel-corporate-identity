@@ -64,6 +64,7 @@ p {
     margin-left: .3em;
 }
 
+
 .tijd {
     display: flex;
     justify-content: center;
@@ -76,9 +77,24 @@ summary {
     font-family: var(--font-poppins);
     font-size: var(--heading3);
     color: var(--general-color);
-    margin: 1em;
+    /* margin: 1em; */
+    background-color: aqua;
+    list-style: none;
+    display: flex;
+    padding: .5em;
+    border-radius: var(--border-radius-button);
+
 }
 
+details[open] summary{
+    border-radius: var(--border-radius-button);
+}
+
+details{
+    background-color: white;
+    border-radius: var(--border-radius-button);
+    margin: 1em;
+}
 
 
 /*universiteit van Leiden*/

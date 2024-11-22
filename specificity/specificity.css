@@ -6,7 +6,7 @@ body {
 /*START MENU*/
 
 /*de achtergrond*/
-header {
+/* header {
     background-color: var(--background-menu);
     position: fixed;
     height: 100vh;
@@ -16,28 +16,27 @@ header {
     z-index: 100;
 
     clip-path: circle(0rem at calc(100% - 2rem) calc(100% - 3rem));
-    /*hoe groot de cirkel*/
+
     transition: clip-path 0.5s ease-in-out;
-    /*hoe snel het menu opent*/
+
 }
 
-/*hoe het menu tevoorschijn komt*/
+
 .show-menu {
     clip-path: circle(80%);
-    /*maakt de cirkel als het menu opent*/
+
 }
 
 main > article section {
     clip-path: circle(0rem at calc(100% - 2rem) calc(100% - 3rem));
-    /*hoe groot de cirkel*/
     transition: clip-path 0.5s ease-in-out;
-}
+} */
 
-.show-hulp section {
+/* .show-hulp section {
     clip-path: circle(80%); 
 }
 
-/*vierkanten in het menu bij elk kopje*/
+
 .menu li {
     display: flex;
     flex-direction: column;
@@ -46,7 +45,7 @@ main > article section {
     width: 100%;
 }
 
-/*tekst in het menu*/
+
 .kopje {
     font-family: var(--font-poppins);
     font-size: var(--body-text-paragraph);
@@ -63,12 +62,11 @@ main > article section {
 
 a:hover {
     border: none;
-    /*lijn onder de kopjes*/
-}
+} */
 
 
-/*de layout in het menu*/
-ul {
+
+/* ul {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
@@ -86,13 +84,13 @@ ul {
     45% { transform: rotate(5deg); }
     60% { transform: rotate(-5deg); }
     100% { transform: rotate(0deg); }
-}
+} */
 
 
 /*HOME*/
 
-.huis {
-    /*vierkant om het huisje*/
+/* .huis {
+
     background-color: var(--home-color);
     width: 5em;
     height: 5em;
@@ -105,12 +103,10 @@ ul {
 
 .home {
     display: flex;
-    /* align-items: center; */
     align-self: end;
 }
 
 .svg-home {
-    /*huisje*/
     display: block;
 }
 
@@ -120,14 +116,13 @@ ul {
 
 .huis.wobble {
     animation: wobble 1s infinite;
-}
+} */
 
 
 
 /*TESTING*/
 
-.testen {
-    /*vierkant om de puzzel*/
+/* .testen {
     background-color: var(--testing-color);
     width: 5em;
     height: 5em;
@@ -140,12 +135,10 @@ ul {
 
 .testing {
     display: flex;
-    /* align-items: center; */
     align-self: end;
 }
 
 .svg-testing {
-    /*puzzel*/
     display: block;
 }
 
@@ -155,14 +148,13 @@ ul {
 
 .testen.wobble {
     animation: wobble 1s infinite;
-}
+} */
 
 
 
 /*LESSONS*/
 
-.les {
-    /*vierkant om het boek*/
+/* .les {
     background-color: var(--lessons-color);
     width: 5em;
     height: 5em;
@@ -175,12 +167,10 @@ ul {
 
 .lessons-nav {
     display: flex;
-    /* align-items: center; */
     align-self: center;
 }
 
 .svg-lessons {
-    /*boek*/
     display: block;
 }
 
@@ -190,13 +180,12 @@ ul {
 
 .les.wobble {
     animation: wobble 1s infinite;
-}
+} */
 
 
 /*STATISTICS*/
 
-.doelen {
-    /*vierkant om het tabel*/
+/* .doelen {
     background-color: var(--statistics-color);
     width: 5em;
     height: 5em;
@@ -209,12 +198,10 @@ ul {
 
 .statistics {
     display: flex;
-    /* align-items: center; */
     align-self: center;
 }
 
 .svg-statistics {
-    /*tabel*/
     display: block;
 }
 
@@ -224,13 +211,12 @@ ul {
 
 .doelen.wobble {
     animation: wobble 1s infinite;
-}
+} */
 
 
 /*PROFILE*/
 
-.gebruiker {
-    /*vierkant om de persoon*/
+/* .gebruiker {
     background-color: var(--profile-color);
     width: 5em;
     height: 5em;
@@ -243,12 +229,10 @@ ul {
 
 .profile {
     display: flex;
-    /* align-items: center; */
     align-self: start;
 }
 
 .svg-profile {
-    /*persoon*/
     display: block;
 }
 
@@ -258,7 +242,7 @@ ul {
 
 .gebruiker.wobble {
     animation: wobble 1s infinite;
-}
+} */
 
 
 /*EINDE MENU*/

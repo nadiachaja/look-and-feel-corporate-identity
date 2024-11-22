@@ -256,15 +256,6 @@ header {
     /*maakt de cirkel als het menu opent*/
 }
 
-main > article section {
-    /* clip-path: circle(0rem at calc(100% - 2rem) calc(100% - 3rem)); */
-    /*hoe groot de cirkel*/
-    transition: clip-path 0.5s ease-in-out;
-}
-
-.show-hulp section {
-    clip-path: circle(80%); 
-}
 
 /*vierkanten in het menu bij elk kopje*/
 .menu li {

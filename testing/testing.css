@@ -55,6 +55,10 @@ p {
     text-decoration: var(--underline-text-hover);
 }
 
+.tekst-link:hover {
+    border: none;
+}
+
 .how {
     font-weight: var(--text-bold);
     margin-left: .3em;
@@ -80,6 +84,7 @@ summary {
 img {
     width: 70px;
     height: 30px;
+    margin: 1em;
 }
 
 .klok {
@@ -96,6 +101,13 @@ button {
     font-family: var(--font-poppins);
     font-size: var(--font-size-button);
     border: var(--border-button);
+    margin: 1em;
+}
+
+
+.button-img-article {
+    display: flex;
+    justify-content: space-between;
 }
 
 
@@ -172,32 +184,8 @@ button {
 }
 
 
-.button-img-article {
-    display: flex;
-    justify-content: space-between;
-    margin: 1em;
-}
-
-/* .button-start-test {
-    display: flex;
-    width: 8em;
-}
-
-.play {
-    display: flex;
-} */
-
-
 /*EINDE TESTING*/
 
-
-
-/*BUTTON TESTING*/
-
-
-
-
-/*EINDE TESTING*/
 
 
 /*BUTTON MENU*/

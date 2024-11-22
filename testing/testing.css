@@ -482,3 +482,120 @@ ul {
 
 
 /*EINDE MENU*/
+
+
+
+
+/*TABLET*/
+
+@media screen and (min-width: 800px) {
+
+    .huis {
+        /*vierkant om het huisje*/
+        width: 6em;
+        height: 6em;
+    }
+
+    .testen {
+        /*vierkant om de puzzel*/
+        width: 6em;
+        height: 6em;
+    }
+
+    .les {
+        /*vierkant om het boek*/
+        width: 6em;
+        height: 6em;
+    }
+
+    .doelen {
+        /*vierkant om het tabel*/
+        width: 6em;
+        height: 6em;
+    }
+
+    .gebruiker {
+        /*vierkant om de persoon*/
+        width: 6em;
+        height: 6em;
+    }
+
+
+
+    .home {
+        margin-left: 4em;
+    }
+
+    .testing {
+        margin-left: -4em;
+    }
+
+    .lessons-nav {
+        margin-left: 4em;
+    }
+
+    .statistics {
+        margin-left: -4em;
+    }
+
+    .profile {
+        margin-left: 4em;
+    }
+
+
+    ul {
+        column-gap: 0em;
+    }
+
+}
+
+
+
+
+@media screen and (min-width: 1000px) {
+
+    .home {
+        margin-left: 8em;
+    }
+
+    .testing {
+        margin-left: -8em;
+    }
+
+    .lessons-nav {
+        margin-left: 8em;
+    }
+
+    .statistics {
+        margin-left: -8em;
+    }
+
+    .profile {
+        margin-left: 8em;
+    }
+}
+
+
+
+@media screen and (min-width: 1200px) {
+
+    .home {
+        margin-left: 10em;
+    }
+
+    .testing {
+        margin-left: -10em;
+    }
+
+    .lessons-nav {
+        margin-left: 10em;
+    }
+
+    .statistics {
+        margin-left: -10em;
+    }
+
+    .profile {
+        margin-left: 10em;
+    }
+}

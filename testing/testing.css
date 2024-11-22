@@ -1,5 +1,4 @@
-
-body{
+body {
     background-color: var(--testing-color);
     padding: 0;
     margin: 0;
@@ -10,14 +9,14 @@ body{
 /*START TESTING*/
 
 
-main{
+main {
     display: grid;
-    gap:2em;
- }
+    gap: 2em;
+}
 
 
 /*tekst*/
-h1{
+h1 {
     font-family: var(--font-poppins);
     font-size: var(--heading1);
     color: var(--general-color);
@@ -25,50 +24,50 @@ h1{
     justify-content: center;
 }
 
-h2{
+h2 {
     font-family: var(--font-poppins);
     font-size: var(--heading2);
     color: var(--general-color);
     margin-left: 1em;
 }
 
-h3{
+h3 {
     font-family: var(--font-poppins);
     font-size: var(--heading3);
     color: var(--general-color);
     margin-left: .5em;
 }
 
-p{
+p {
     font-family: var(--font-poppins);
     font-size: var(--body-text-paragraph);
     color: var(--general-color);
     margin-left: .3em;
 }
 
-.tekst-uitleg{
+.tekst-uitleg {
     margin-left: 1em;
     margin-right: 1em;
 }
 
-.tekst-link{
+.tekst-link {
     color: var(--general-color);
     text-decoration: var(--underline-text-hover);
 }
 
-.how{
+.how {
     font-weight: var(--text-bold);
     margin-left: .3em;
 }
 
-.tijd{
-    display:flex;
+.tijd {
+    display: flex;
     justify-content: center;
     align-items: center;
 }
 
 /*privacy statement*/
-summary{
+summary {
     font-family: var(--font-poppins);
     font-size: var(--heading3);
     color: var(--general-color);
@@ -78,19 +77,19 @@ summary{
 
 
 /*universiteit van Leiden*/
-img{
+img {
     width: 70px;
     height: 30px;
 }
 
-.klok{
+.klok {
     display: flex;
     justify-self: end;
     align-self: center;
 }
 
 
-button{
+button {
     background-color: var(--background-color-button);
     border-radius: var(--border-radius-button);
     color: var(--button-text-color);
@@ -101,16 +100,16 @@ button{
 
 
 /*attention span test*/
-.do-test-header-1{
+.do-test-header-1 {
     background-color: aqua;
-    border-top-left-radius: var(--border-radius-button) ;
+    border-top-left-radius: var(--border-radius-button);
     border-top-right-radius: var(--border-radius-button);
     display: grid;
     grid-template-columns: 230px 35px 130px;
     grid-template-rows: 1fr;
 }
 
-.test-1{
+.test-1 {
     background-color: white;
     border-radius: var(--border-radius-button);
     margin: 1em;
@@ -119,16 +118,16 @@ button{
 
 
 /*word recognition*/
-.do-test-header-2{
+.do-test-header-2 {
     background-color: aqua;
-    border-top-left-radius: var(--border-radius-button) ;
+    border-top-left-radius: var(--border-radius-button);
     border-top-right-radius: var(--border-radius-button);
     display: grid;
     grid-template-columns: 230px 35px 130px;
     grid-template-rows: 1fr;
 }
 
-.test-2{
+.test-2 {
     background-color: white;
     border-radius: var(--border-radius-button);
     margin: 1em;
@@ -137,16 +136,16 @@ button{
 
 
 /*the first words 1*/
-.do-test-header-3{
+.do-test-header-3 {
     background-color: aqua;
-    border-top-left-radius: var(--border-radius-button) ;
+    border-top-left-radius: var(--border-radius-button);
     border-top-right-radius: var(--border-radius-button);
     display: grid;
     grid-template-columns: 230px 35px 130px;
     grid-template-rows: 1fr;
 }
 
-.test-3{
+.test-3 {
     /* background-color: var(--main-color); */
     background-color: white;
     border-radius: var(--border-radius-button);
@@ -156,21 +155,46 @@ button{
 
 
 /*the first words 2*/
-.do-test-header-4{
+.do-test-header-4 {
     background-color: aqua;
-    border-top-left-radius: var(--border-radius-button) ;
+    border-top-left-radius: var(--border-radius-button);
     border-top-right-radius: var(--border-radius-button);
     display: grid;
     grid-template-columns: 230px 35px 130px;
     grid-template-rows: 1fr;
 }
 
-.test-4{
+.test-4 {
     /* background-color: var(--main-color); */
     background-color: white;
     border-radius: var(--border-radius-button);
     margin: 1em;
 }
+
+
+.button-img-article {
+    display: flex;
+    justify-content: space-between;
+    margin: 1em;
+}
+
+/* .button-start-test {
+    display: flex;
+    width: 8em;
+}
+
+.play {
+    display: flex;
+} */
+
+
+/*EINDE TESTING*/
+
+
+
+/*BUTTON TESTING*/
+
+
 
 
 /*EINDE TESTING*/
@@ -179,7 +203,8 @@ button{
 /*BUTTON MENU*/
 
 
-.menu{
+
+.button-menu {
     background-color: var(--general-color);
     border-radius: var(--border-radius-button);
     width: 5em;
@@ -189,25 +214,6 @@ button{
     right: 2em;
     bottom: 2em;
     z-index: 101;
-    /*dat het elemnt nu boven andere elementen staat*/
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    fill: var(--button-text-color);
-}
-
-
-button {
-    background-color: var(--general-color);
-    border-radius: var(--border-radius-button);
-    width: 5em;
-    height: 5em;
-    border: var(--border-button);
-    position: fixed;
-    right: 2em;
-    bottom: 2em;
-    z-index: 101;
-    /*dat het elemnt nu boven andere elementen staat*/
     display: flex;
     align-items: center;
     justify-content: center;

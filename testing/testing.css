@@ -29,7 +29,7 @@ h2{
     font-family: var(--font-poppins);
     font-size: var(--heading2);
     color: var(--general-color);
-    margin-left: .5em;
+    margin-left: 1em;
 }
 
 h3{

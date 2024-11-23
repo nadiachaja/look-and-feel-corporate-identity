@@ -5,8 +5,16 @@ let navigation = document.querySelector('header');
 
 button.addEventListener("click", function() {
     navigation.classList.toggle('show-menu');
+   
 
-});    
+// tabindex voor menu open en dicht 
+if (navigation.classList.contains('show-menu')) {
+    button.setAttribute('tabindex', '18'); 
+} else {
+    button.setAttribute('tabindex', '7'); 
+    button.focus(); 
+}
+});
     
 
 

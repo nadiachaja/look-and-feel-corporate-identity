@@ -11,7 +11,7 @@ body {
 
 main {
     display: grid;
-    gap: 2em;
+    /* gap: 2em; */
 }
 
 
@@ -28,28 +28,41 @@ h2 {
     font-family: var(--font-poppins);
     font-size: var(--heading2);
     color: var(--general-color);
-    margin-left: 1em;
+    /* margin-left: 1em; */
+    padding-left: 1em;
+    padding-top: 1em;
+    margin: 0;
 }
 
 h3 {
     font-family: var(--font-poppins);
     font-size: var(--heading3);
-    color: var(--general-color);
+    color: var(--button-text-color);
     margin-left: .7em;
 }
 
+/*tekst in de kopjes*/
 p {
     font-family: var(--font-poppins);
     font-size: var(--body-text-paragraph);
     color: var(--general-color);
     margin-left: .3em;
+    margin-right: .6em;
 }
 
+/*tekst in kopje*/
+.how {
+    font-weight: var(--text-bold);
+    margin-left: .3em;
+}
+
+/*tekst bovenaan*/
 .tekst-uitleg {
     margin-left: 1.5em;
     margin-right: 1em;
 }
 
+/*statistics woord*/
 .tekst-link {
     color: var(--general-color);
     text-decoration: var(--underline-text-hover);
@@ -59,32 +72,37 @@ p {
     border: none;
 }
 
-.how {
-    font-weight: var(--text-bold);
-    margin-left: .3em;
+/*tekst in details*/
+.privacy{
+    margin-left: 1.5em;
+    margin-right: 1em;
 }
 
-
+/*tekst de minuten in kopjes*/
 .tijd {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-right: .8em;
+    color: var(--button-text-color);
 }
 
 /*privacy statement*/
 summary {
     font-family: var(--font-poppins);
     font-size: var(--heading3);
-    color: var(--general-color);
-    background-color: aqua;
+    color: var(--button-text-color);
+    background-color: #92079C;
     list-style: none;
-    display: flex;
     padding: .5em;
     padding-left: .8em;
-    /* padding: .7em; */
     border-radius: var(--border-radius-button);
     font-weight: var(--text-bold);
+}
+
+/*teskt in summary*/
+.privacy-statement{
+    margin: 1em;
 }
 
 details[open] summary{
@@ -94,10 +112,8 @@ details[open] summary{
 details{
     background-color: white;
     border-radius: var(--border-radius-button);
-}
-
-.Privacy-statement{
-    margin: 1em;
+    margin-bottom: 3em;
+    margin-top: 2em;
 }
 
 
@@ -108,13 +124,14 @@ img {
     margin: 1em;
 }
 
+/*klok in kopjes*/
 .klok {
     display: flex;
     justify-self: end;
     align-self: center;
 }
 
-
+/*alle buttons*/
 button {
     background-color: var(--background-color-button);
     border-radius: var(--border-radius-button);
@@ -143,7 +160,7 @@ button {
 
 /*attention span test*/
 .do-test-header-1 {
-    background-color: aqua;
+    background-color: #135e23;
     border-top-left-radius: var(--border-radius-button);
     border-top-right-radius: var(--border-radius-button);
     display: grid;
@@ -161,7 +178,7 @@ button {
 
 /*word recognition*/
 .do-test-header-2 {
-    background-color: aqua;
+    background-color: #275cbb;
     border-top-left-radius: var(--border-radius-button);
     border-top-right-radius: var(--border-radius-button);
     display: grid;
@@ -173,13 +190,14 @@ button {
     background-color: white;
     border-radius: var(--border-radius-button);
     margin: 1em;
+    margin-bottom: 3em;
 }
 
 
 
 /*the first words 1*/
 .do-test-header-3 {
-    background-color: aqua;
+    background-color: #085e54;
     border-top-left-radius: var(--border-radius-button);
     border-top-right-radius: var(--border-radius-button);
     display: grid;
@@ -198,7 +216,7 @@ button {
 
 /*the first words 2*/
 .do-test-header-4 {
-    background-color: aqua;
+    background-color: #275cbb;
     border-top-left-radius: var(--border-radius-button);
     border-top-right-radius: var(--border-radius-button);
     display: grid;

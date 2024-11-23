@@ -46,9 +46,9 @@ button.addEventListener("click", function() {
 
 // tabindex voor menu open en dicht 
     if (navigation.classList.contains('show-menu')) {
-        button.setAttribute('tabindex', '8'); 
+        button.setAttribute('tabindex', '14'); 
     } else {
-        button.setAttribute('tabindex', '2'); 
+        button.setAttribute('tabindex', '3'); 
         button.focus(); 
     }
 });

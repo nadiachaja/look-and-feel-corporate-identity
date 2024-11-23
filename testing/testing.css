@@ -77,13 +77,14 @@ summary {
     font-family: var(--font-poppins);
     font-size: var(--heading3);
     color: var(--general-color);
-    /* margin: 1em; */
     background-color: aqua;
     list-style: none;
     display: flex;
     padding: .5em;
+    padding-left: .8em;
+    /* padding: .7em; */
     border-radius: var(--border-radius-button);
-
+    font-weight: var(--text-bold);
 }
 
 details[open] summary{
@@ -93,6 +94,9 @@ details[open] summary{
 details{
     background-color: white;
     border-radius: var(--border-radius-button);
+}
+
+.Privacy-statement{
     margin: 1em;
 }
 
@@ -120,8 +124,8 @@ button {
     border: var(--border-button);
     margin: 1em;
     padding: .5em;
-    display: grid;
-    grid-template-columns: 85px 15px;
+    /* display: grid;
+    grid-template-columns: 85px 15px; */
 }
 
 

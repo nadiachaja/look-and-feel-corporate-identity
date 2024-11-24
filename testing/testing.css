@@ -62,6 +62,11 @@ p {
     margin-right: 1em;
 }
 
+.test-uitleg{
+    margin-left: 1.5em;
+    margin-right: 1em;
+}
+
 /*statistics woord*/
 .tekst-link {
     color: var(--general-color);
@@ -73,7 +78,7 @@ p {
 }
 
 /*tekst in details*/
-.privacy{
+.privacy {
     margin-left: 1.5em;
     margin-right: 1em;
 }
@@ -101,15 +106,15 @@ summary {
 }
 
 /*teskt in summary*/
-.privacy-statement{
+.privacy-statement {
     margin: 1em;
 }
 
-details[open] summary{
+details[open] summary {
     border-radius: var(--border-radius-button);
 }
 
-details{
+details {
     background-color: white;
     border-radius: var(--border-radius-button);
     margin-bottom: 3em;
@@ -151,7 +156,7 @@ button {
     justify-content: space-between;
 }
 
-.button-start-test{
+.button-start-test {
     display: flex;
     justify-self: end;
 }
@@ -270,3 +275,190 @@ button:hover {
 
 
 
+
+
+/*TABLET*/ /*LAPTOP*/
+
+@media screen and (min-width: 700px) {
+
+    .test-1 {
+        margin-left: 5em;
+        margin-right: 5em;
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+
+    .test-2 {
+        margin-left: 5em;
+        margin-right: 5em;
+
+    }
+
+    .test-3 {
+        margin-left: 5em;
+        margin-right: 5em;
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+
+    .test-4 {
+        margin-left: 5em;
+        margin-right: 5em;
+    }
+
+    details{
+        margin-left: 4em;
+        margin-right: 4em;
+    }
+
+    h2{
+        padding-left: 3.5em;
+    }
+
+    .tekst-uitleg{
+        margin-left: 5.5em;
+        margin-right: 5em;
+    }
+
+    .do-test-header-1{
+        display: grid;
+        grid-template-columns: 440px 35px 130px;
+    }
+
+    .do-test-header-2{
+        display: grid;
+        grid-template-columns: 440px 35px 130px;
+    }
+
+    .do-test-header-3{
+        display: grid;
+        grid-template-columns: 440px 35px 130px;
+    }
+
+    .do-test-header-4{
+        display: grid;
+        grid-template-columns: 440px 35px 130px;
+    }
+}
+
+
+
+
+@media screen and (min-width: 820px){
+
+    .do-test-header-1{
+        display: grid;
+        grid-template-columns: 490px 35px 130px;
+    }
+
+    .do-test-header-2{
+        display: grid;
+        grid-template-columns: 490px 35px 130px;
+    }
+
+    .do-test-header-3{
+        display: grid;
+        grid-template-columns: 490px 35px 130px;
+    }
+
+    .do-test-header-4{
+        display: grid;
+        grid-template-columns: 490px 35px 130px;
+    }
+}
+
+
+
+
+@media screen and (min-width: 1000px){
+
+    .test-1 {
+        margin-left: 8em;
+        margin-right: 8em;
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+
+    .test-2 {
+        margin-left: 8em;
+        margin-right: 8em;
+
+    }
+
+    .test-3 {
+        margin-left: 8em;
+        margin-right: 8em;
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+
+    .test-4 {
+        margin-left: 8em;
+        margin-right: 8em;
+    }
+
+    details{
+        margin-left: 7em;
+        margin-right: 7em;
+    }
+
+    h2{
+        padding-left: 5.5em;
+    }
+
+    .tekst-uitleg{
+        margin-left: 8.5em;
+        margin-right: 7em;
+    }
+
+    .do-test-header-1{
+        display: grid;
+        grid-template-columns: 600px 35px 130px;
+    }
+
+    .do-test-header-2{
+        display: grid;
+        grid-template-columns: 600px 35px 130px;
+    }
+
+    .do-test-header-3{
+        display: grid;
+        grid-template-columns: 600px 35px 130px;
+    }
+
+    .do-test-header-4{
+        display: grid;
+        grid-template-columns: 600px 35px 130px;
+    }
+}
+
+
+
+
+@media screen and (min-width: 1200px){
+
+
+    details{
+        margin-top: 3em;
+    }
+
+    .do-test-header-1{
+        display: grid;
+        grid-template-columns: 1000px 35px 130px;
+    }
+
+    .do-test-header-2{
+        display: grid;
+        grid-template-columns: 1000px 35px 130px;
+    }
+
+    .do-test-header-3{
+        display: grid;
+        grid-template-columns: 1000px 35px 130px;
+    }
+
+    .do-test-header-4{
+        display: grid;
+        grid-template-columns: 1000px 35px 130px;
+    }
+}

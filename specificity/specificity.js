@@ -146,3 +146,6 @@ gebruiker.addEventListener('mouseenter', () => {
 gebruiker.addEventListener('mouseleave', () => {
     gebruiker.classList.remove('wobble');
 });
+
+
+

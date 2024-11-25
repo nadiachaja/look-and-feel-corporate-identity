@@ -112,7 +112,7 @@ summary::after {
     content: '';
     width: 25px;
     height: 25px;
-    background: url('/svg/arrow-down-338-svgrepo-com.svg') no-repeat;
+    background: url('../svg/arrow-down-338-svgrepo-com.svg') no-repeat;
     background-size: cover;
     transition: 0.3s;
   }
@@ -164,8 +164,6 @@ button {
     border: var(--border-button);
     margin: 1em;
     padding: .5em;
-    /* display: grid;
-    grid-template-columns: 85px 15px; */
 }
 
 

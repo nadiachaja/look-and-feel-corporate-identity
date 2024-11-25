@@ -75,7 +75,7 @@ button.addEventListener('click', function() {
 
 //vraagteken openen en sluiten
 let vraagToggle = document.querySelector('#vraagToggle');  
-let hulp = document.querySelector('article'); 
+let hulp = document.querySelector('.vraag-uitleg-werkt'); 
 
 
 vraagToggle.addEventListener("click", function() {

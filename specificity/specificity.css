@@ -29,8 +29,8 @@ button.vraagteken:hover {
     border-radius: 50%;
 }
 
-
-.vraag-uitleg-werkt{
+/*article*/
+article{
     display: none;
     /* background-color: var(--background-menu); */
     background-color: transparent;

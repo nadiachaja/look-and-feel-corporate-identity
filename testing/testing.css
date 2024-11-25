@@ -102,7 +102,21 @@ summary {
     padding-left: .8em;
     border-radius: var(--border-radius-button);
     font-weight: var(--text-bold);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
 }
+
+summary::after {
+    content: '';
+    width: 25px;
+    height: 25px;
+    background: url('/svg/arrow-down-338-svgrepo-com.svg') no-repeat;
+    background-size: cover;
+    transition: 0.3s;
+  }
+
 
 /*teskt in summary*/
 .privacy-statement {
@@ -112,6 +126,11 @@ summary {
 details[open] summary {
     border-radius: var(--border-radius-button);
 }
+
+details[open] > summary::after {
+    transform: rotate(180deg);
+  }
+
 
 details {
     background-color: white;

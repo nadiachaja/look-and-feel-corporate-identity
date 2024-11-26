@@ -49,12 +49,12 @@ De details tag is gestylt en als die geopent is zit er een button in om naar een
 
 
 ## Responsive
-<img width="187" alt="testing telefoon" src="https://github.com/user-attachments/assets/545f5bf7-831f-465a-83bb-562940b0095e">
-<img width="228" alt="testing tablet" src="https://github.com/user-attachments/assets/6fd18b98-4e0d-44ae-9a0c-de110b209b91"> <br>
+<img width="187" alt="testing telefoon" src="https://github.com/user-attachments/assets/545f5bf7-831f-465a-83bb-562940b0095e"> <br>
+<img width="228" alt="testing tablet" src="https://github.com/user-attachments/assets/6fd18b98-4e0d-44ae-9a0c-de110b209b91"> 
 <img width="440" alt="testing laptop" src="https://github.com/user-attachments/assets/42e67225-199b-4e6c-9ea9-8d32abad4769">
 
-<img width="187" alt="vraagteken telefoon" src="https://github.com/user-attachments/assets/273acfd2-868e-4b81-b9cc-e01af0b54eb9">
-<img width="229" alt="vraagteken tablet" src="https://github.com/user-attachments/assets/00c6170c-e12e-4233-b736-73222c96092b"> <br>
+<img width="187" alt="vraagteken telefoon" src="https://github.com/user-attachments/assets/273acfd2-868e-4b81-b9cc-e01af0b54eb9"> <br>
+<img width="229" alt="vraagteken tablet" src="https://github.com/user-attachments/assets/00c6170c-e12e-4233-b736-73222c96092b"> 
 <img width="440" alt="vraagteken laptop" src="https://github.com/user-attachments/assets/bc9a8dae-5c77-4723-adc8-3fc6babcd328">
 
 

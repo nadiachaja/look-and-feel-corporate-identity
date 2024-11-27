@@ -67,20 +67,21 @@ Er is een styleguide gemaakt met welke kleuren er gebruikt word, de lettertype e
 De [Styleguide](https://github.com/Kitkatisvibing/look-and-feel-styleguide/blob/main/tumimundo.css)
 
 ## Kenmerken
-de html homepagina 
-- header
-- main
+de [html homepagina](https://github.com/nadiachaja/look-and-feel-corporate-identity/blob/main/index.html) 
+- header (nav, ul, li, svg, a en een p)
+- main (article, section, h2, button, svg, div, h1, a , span en een figure)
 
 
-de html testing
-- header
-- main
-- article
-- div
+de [html testing](https://github.com/nadiachaja/look-and-feel-corporate-identity/blob/main/testing/testing.html)
+- header (nav, ul, li, svg, a en een p)
+- main (section, h3, div, svg en een p)
+- article (h1, h2 en een p)
+- div (details, summary, p en een button)
+
   
 Ik heb gewerkt met 3 css bestanden
 - De styleguide 
-- De perssonlijke css bestand van het html bestand 
+- De persoonlijke css bestand van het html bestand 
 - Waar het menu in staat
   
 Er is vanuit mobile first gewerkt en om het voor andere apparaten te laten maken is er [@media](https://github.com/nadiachaja/look-and-feel-corporate-identity/blob/main/testing/testing.css#L299-L396) gebruikt. <br>

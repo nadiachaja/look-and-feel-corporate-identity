@@ -10,7 +10,6 @@ body {
 
 main {
     display: grid;
-    /* gap: 2em; */
 }
 
 
@@ -27,7 +26,6 @@ h2 {
     font-family: var(--font-poppins);
     font-size: var(--heading2);
     color: var(--general-color);
-    /* margin-left: 1em; */
     padding-left: 1em;
     padding-top: 1em;
     margin: 0;
@@ -96,7 +94,7 @@ summary {
     font-family: var(--font-poppins);
     font-size: var(--heading3);
     color: var(--button-text-color);
-    background-color: #92079C;
+    background-color: var(--testing-summary-color);
     list-style: none;
     padding: .5em;
     padding-left: .8em;
@@ -133,7 +131,7 @@ details[open] > summary::after {
 
 
 details {
-    background-color: white;
+    background-color: var(--wolkje-color);
     border-radius: var(--border-radius-button);
     margin-bottom: 3em;
     margin-top: 2em;
@@ -181,7 +179,7 @@ button {
 
 /*attention span test*/
 .do-test-header-1 {
-    background-color: #135e23;
+    background-color: var(--testing-kopje-1-color);
     border-top-left-radius: var(--border-radius-button);
     border-top-right-radius: var(--border-radius-button);
     display: flex;
@@ -194,7 +192,7 @@ display: flex;
 
 
 .test-1 {
-    background-color: white;
+    background-color: var(--wolkje-color);
     border-radius: var(--border-radius-button);
     margin: 1em;
 }
@@ -203,7 +201,7 @@ display: flex;
 
 /*word recognition*/
 .do-test-header-2 {
-    background-color: #275cbb;
+    background-color: var(--testing-kopje-2-4-color);
     border-top-left-radius: var(--border-radius-button);
     border-top-right-radius: var(--border-radius-button);
     display: flex;
@@ -211,7 +209,7 @@ display: flex;
 }
 
 .test-2 {
-    background-color: white;
+    background-color: var(--wolkje-color);
     border-radius: var(--border-radius-button);
     margin: 1em;
     margin-bottom: 3em;
@@ -221,7 +219,7 @@ display: flex;
 
 /*the first words 1*/
 .do-test-header-3 {
-    background-color: #085e54;
+    background-color: var(--testing-kopje-3-color);
     border-top-left-radius: var(--border-radius-button);
     border-top-right-radius: var(--border-radius-button);
     display: flex;
@@ -229,8 +227,7 @@ display: flex;
 }
 
 .test-3 {
-    /* background-color: var(--main-color); */
-    background-color: white;
+    background-color: var(--wolkje-color);
     border-radius: var(--border-radius-button);
     margin: 1em;
 }
@@ -239,7 +236,7 @@ display: flex;
 
 /*the first words 2*/
 .do-test-header-4 {
-    background-color: #275cbb;
+    background-color: var(--testing-kopje-2-4-color);
     border-top-left-radius: var(--border-radius-button);
     border-top-right-radius: var(--border-radius-button);
     display: flex;
@@ -247,8 +244,7 @@ display: flex;
 }
 
 .test-4 {
-    /* background-color: var(--main-color); */
-    background-color: white;
+    background-color: var(--wolkje-color);
     border-radius: var(--border-radius-button);
     margin: 1em;
     margin-bottom: 8em;

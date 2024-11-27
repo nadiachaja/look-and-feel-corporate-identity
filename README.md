@@ -45,7 +45,7 @@ Ik heb op de kopjes een wobble effect gezet en dat kan je zien als je er over he
 <br>
 Op de testing pagina zit een details tag en 4 kopje voor verschillende tests die je kan gaan doen. 
 
-De details tag is gestylt en als die geopent is zit er een button in om naar een andere pagina te gaan. 
+De details tag is gestyled en als die geopent is zit er een button in om naar een andere pagina te gaan. 
 
 
 ## Responsive
